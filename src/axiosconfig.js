@@ -6,3 +6,5 @@ export const api = axios.create({
   baseURL: API_BASE_URL,
   withCredentials: true, // if you’re using cookies or sessions
 });
+
+export default api;
